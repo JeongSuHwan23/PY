@@ -35,6 +35,6 @@ print(b, a)
 s = input()
 print(s, s, s)
 
-# 기호를 중심으로 구분하여 입출력
+#기호를 중심으로 구분하여 입출력
 a, b = input().split(':') # ':'를 기준으로 자름
 print(a, b, sep=':') # ':'을 사이에 주고 출력
