@@ -21,7 +21,7 @@ print(a)
 print(b)
 
 #공백을 두고 입력된 정수를 입력받아 출력
-a, b = input().split() 
+a, b = input().split() #spilt() = 공백을 기준으로 자름
 a=int(a)
 b=int(b)
 print(a)
@@ -50,3 +50,26 @@ print(d, m, y, sep='-') #'-'를 사이에 두고 출력
 n, m = input().split('-')
 print(n, m, sep='') #(sep = '')을 사용하면 n과 m 사이에 공백없이 출력할 수 있다
 
+#단어 분리해서 출력 (code up 6021)
+s = input()
+print(s[0])
+print(s[1])
+print(s[2])
+print(s[3])
+print(s[4])
+#s[n] = n번째 문자
+#ex) Hello의 s[0]='H'
+
+#년도, 월, 일 분리해서 출력 (code up 6022)
+s = input()
+print(s[0:2], s[2:4], s[4:6], sep=' ')
+#s[a,b] = a ~ b-1번째 문자까지 잘라낸 부분
+#ex) 123456의 s[0:2] = '12'
+
+#분만 출력 (code up 6023)
+h, m, s = input().split(':')
+print(m)
+
+#단어 붙여서 출력
+w1, w2 = input().split()
+print(w1+w2) #w1과 w2를 더해서 공백이 없이 출력 
