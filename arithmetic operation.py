@@ -38,3 +38,24 @@ print(int(a)%int(b))
 #소수점 이하 자리 변환
 n = float(input())
 print(format(n, ".2f"))
+
+#자동 계산
+a, b = input().split()
+a = int(a)
+b = int(b)
+print(a+b)
+print(a-b)
+print(a*b)
+print(a//b)
+print(a%b)
+c = float(a)/float(b)
+print(format(c, ".2f"))
+
+#합, 평균 계산
+a, b, c = input().split()
+a = int(a)
+b = int(b)
+c = int(c)
+sum = a+b+c
+avg = float(a+b+c)/3
+print(sum, format(avg, ".2f"))
