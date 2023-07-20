@@ -27,11 +27,11 @@ b=int(b)
 print(a)
 print(b)
 
-#순서를 바꿔서 출력 (code up 6016) 
+#순서를 바꿔서 출력 
 a, b = input().split()
 print(b, a)
 
-#연속해서 출력 (code up 6017)
+#연속해서 출력
 s = input()
 print(s, s, s)
 
