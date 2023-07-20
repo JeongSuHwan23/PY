@@ -73,3 +73,4 @@ print(m)
 #단어 붙여서 출력
 w1, w2 = input().split()
 print(w1+w2) #w1과 w2를 더해서 공백이 없이 출력 
+
