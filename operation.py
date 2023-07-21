@@ -142,5 +142,27 @@ print(int(a) | int(b))
 a, b = input().split()
 print(int(a) ^ int(b))
 
-
 #비트단위 연산자 종류 : ~(bitwise not), &(bitwise and), |(bitwise or), ^(bitwise xor), <<(bitwise left shift), >>(bitwise right shift)
+
+#2023-07-21
+
+#Ternary Operator (3항연산자)
+#"x if C else y" 
+# C : Ture or False 를 평가할 조건식
+# x : C의 결과가 Ture 일 때 사용할 값
+# y : C의 결과가 False 일 때 사용할 값
+
+#큰 값 출력
+a, b = input().split()
+a = int(a)
+b = int(b)
+c = (a if(a>=b) else b) # a>=b의 결과가 참 -> a 출력 // 거짓 -> b 출력
+print(c)
+
+#가장 작은 값 출력(3항 연산자 중첩)
+a, b, c = input().split()
+a = int(a)
+b = int(b)
+c = int(c)
+min = ((a if(a<b) else b) if ((a if(a<b) else b)<c) else c)
+print(min)
