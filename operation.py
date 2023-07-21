@@ -159,7 +159,7 @@ b = int(b)
 c = (a if(a>=b) else b) # a>=b의 결과가 참 -> a 출력 // 거짓 -> b 출력
 print(c)
 
-#가장 작은 값 출력(3항 연산자 중첩)
+#가장 작은 값 출력 (3항 연산자 중첩)
 a, b, c = input().split()
 a = int(a)
 b = int(b)
